@@ -1,0 +1,42 @@
+# pip-compile --output-file requirements.txt requirements.in
+# pip-sync
+
+# DS
+# ------------------------------------------------------------------------------
+numpy
+pandas
+sklearn
+seaborn
+matplotlib
+bokeh
+spacy_udpipe
+# python -m spacy download en_core_web_sm
+# python -m spacy download en_core_web_md
+# python -m spacy download en_core_web_lg
+# python -m spacy download xx_ent_wiki_sm
+
+# CV
+# ------------------------------------------------------------------------------
+opencv-python
+albumentations
+efficientnet-pytorch
+tf-nightly
+torch
+torchvision
+torchtext
+mtcnn
+transformers
+facenet_pytorch
+mmcv
+
+# IDE
+# ------------------------------------------------------------------------------
+jupyterlab
+nodejs
+jupyter_contrib_nbextensions
+# jupyter contrib nbextension install --user
+ipywidgets
+# jupyter nbextension enable --py widgetsnbextension
+# jupyter labextension install @jupyter-widgets/jupyterlab-manager
+setuptools
+mlflow
