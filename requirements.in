@@ -9,25 +9,21 @@ sklearn
 seaborn
 matplotlib
 bokeh
+
+
+NLP
+# ------------------------------------------------------------------------------
+torch
+torchtext
+transformers
+nltk
+pymorphy2
 spacy_udpipe
 # python -m spacy download en_core_web_sm
 # python -m spacy download en_core_web_md
 # python -m spacy download en_core_web_lg
 # python -m spacy download xx_ent_wiki_sm
 
-# CV
-# ------------------------------------------------------------------------------
-opencv-python
-albumentations
-efficientnet-pytorch
-tf-nightly
-torch
-torchvision
-torchtext
-mtcnn
-transformers
-facenet_pytorch
-mmcv
 
 # IDE
 # ------------------------------------------------------------------------------
