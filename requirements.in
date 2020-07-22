@@ -16,6 +16,7 @@ NLP
 torch
 torchtext
 transformers
+tensorflow
 nltk
 pymorphy2
 spacy_udpipe
